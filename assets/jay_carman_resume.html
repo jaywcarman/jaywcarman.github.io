@@ -1,0 +1,417 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Jay Carman</title>
+
+	<style>
+	body {
+    background: #EEEEEE;
+    font: 13px "Times New Roman", Times, sans-serif;
+    line-height: 1.4;
+    margin: 40px 0;
+}
+
+em {
+    color: #999;
+}
+
+p {
+    line-height: 1.4;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 80px 100px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px #aaa;
+    -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+    width: 28%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.largeFont {
+    font-size: 20px;
+}
+
+.smallFont {
+    font-size: 13px;
+}
+
+.sectionBlock {
+    display: flex;
+    width: 100%;
+}
+
+.sectionName {
+    width: 18%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.sectionContent {
+    width: 80%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.sectionContent ul {
+    padding-left: 20px;
+    margin-top: 6px;
+    list-style-type: circle;
+}
+
+.sectionContent .title {
+    font-weight: bold;
+}
+
+.sectionContent .date {
+    float: right;
+}
+
+.sectionContent .separator {
+    height: 14px;
+}
+
+.sectionLine {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #CFCFCF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divider {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.summary {
+    margin-top: 6px;
+}
+
+.skillBlock {
+    margin-bottom: 4px;
+}
+
+.jobBlock {
+    page-break-inside: avoid;
+}
+
+.description {
+    text-align: justify;
+}
+
+blockquote.reference {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 40em) {
+    body {
+        margin: 0;
+        font-size: 14px;
+    }
+    #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0.5em 1em;
+        border: none;
+    }
+    .sectionBlock {
+        flex-direction: column;
+    }
+    .sectionContent {
+        width: 100%;
+    }
+    .sectionContent .date {
+        padding-right: 2em;
+    }
+    .sectionName {
+        width: auto;
+    }
+    .largeFont {
+        font-size: 20px;
+    }
+    .smallFont {
+        font-size: 14px;
+    }
+}
+
+@media print {
+    body {
+        background: #FFFFFF;
+    }
+    #resume {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 0px 0px;
+        border: 0px;
+        background: #fff;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    a {
+        color: black;
+    }
+}
+	</style>
+	
+	</head>
+	<body>
+	
+	<div id="resume">
+		<div id='nameBlock' class='largeFont'>
+			<span class='name'>
+				Jay Carman,
+			</span>
+			<span class='label'>Cloud Software Developer</span>
+		</div>
+		<div id='basicsBlock' class='smallFont'>
+			<div class='contactBlock'>
+				<span class='email'>jay@carman.us.com</span>
+				<span class='divider'>|</span>
+				<span class='phone'>512-761-5299</span>
+				<span class='divider'>|</span>
+				<span class='address'>
+					Austin, Texas, US
+				</span>
+			</div>
+			<div id='profilesBlock'>
+				<span class='url'>
+					<b>GitHub:</b> <a href='https://github.com/jaywcarman'>https://github.com/jaywcarman</a>
+				</span>
+				<span class='divider'>|</span>
+				<span class='url'>
+					<b>LinkedIn:</b> <a href='https://www.linkedin.com/in/jay-carman/'>https://www.linkedin.com/in/jay-carman/</a>
+				</span>
+				
+			</div>
+		</div>
+		
+		<div class='sectionLine'></div>
+		<div id='summaryBlock' class="sectionBlock">
+			<div class='sectionName'>
+				<span>SUMMARY</span>
+			</div>
+			<div class='sectionContent'>
+				<span>Software developer with broad experience across programming languages, platforms and architectures. Enjoys working with emerging technology and diverse teams.</span>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='education' class="sectionBlock">
+			<div class='sectionName'>
+				<span>EDUCATION</span>
+			</div>
+			<div class='sectionContent'>
+				<div class='educationBlock'>
+					<span class='title'>
+						University of Arkansas, Fayetteville
+					</span>
+					<span class='date'>
+						Aug 2003 - May 2008
+					</span>
+					<div class=''>
+						Bachelor of Science  - Electrical Engineering (Mathematics minor)
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='skills' class="sectionBlock">
+			<div class='sectionName'>
+				<span>SKILLS</span>
+			</div>
+			<div class='sectionContent'>
+				<div class='skillBlock'>
+					<span class='title'>Programming languages:</span>
+					<span>Python</span>, 
+					<span>Ruby</span>, 
+					<span>Go</span>, 
+					<span>Bash</span>, 
+					<span>Perl</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Software tools:</span>
+					<span>Git</span>, 
+					<span>Ansible</span>, 
+					<span>Terraform</span>, 
+					<span>Travis CI</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Databases:</span>
+					<span>PostgreSQL</span>, 
+					<span>SQLite</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Data Formats:</span>
+					<span>JSON</span>, 
+					<span>YAML</span>, 
+					<span>XML</span>
+				</div>
+				<div class='skillBlock'>
+					<span class='title'>Miscellaneous:</span>
+					<span>Linux</span>, 
+					<span>IBM Cloud</span>, 
+					<span>PowerVM</span>, 
+					<span>KVM</span>, 
+					<span>IPMI</span>, 
+					<span>PXE</span>, 
+					<span>DNS</span>
+				</div>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='workBlock' class="sectionBlock">
+			<div class='sectionName'>
+				<span>EXPERIENCE</span>
+			</div>
+			<div class='sectionContent'>
+				<div class="jobBlock">
+					<div class='blockHeader'>
+						<span class='title'>IBM - Austin, TX</span>
+						
+						<span class='date'>
+							Jun 2008 - Present
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<div class='separator'></div>
+				</div>
+				<div class="jobBlock">
+					<div class='blockHeader'>
+						<span class='title'>Squad lead</span>
+						 | <span class="position">Power Systems Hybrid Cloud</span>
+						<span class='date'>
+							Oct 2019 - Present
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<ul class='highlights'>
+						<li>Red Hat Partner Engineer</li>
+						<li>Squad lead for ManageIQ/CP4MCM Infrastrusture Management Power plug-ins</li>
+						<li>Squad lead for Red Hat ACM on Power architecture</li>
+						<li>Author of machine generated IBM Cloud Ansible collection</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="jobBlock">
+					<div class='blockHeader'>
+						<span class='title'>Lead developer</span>
+						 | <span class="position">&#x27;POWER-Up&#x27; Cluster Deployment Automation</span>
+						<span class='date'>
+							May 2017 - Oct 2019
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<ul class='highlights'>
+						<li>Automated deployment of bare-metal OpenPOWER and x86 server clusters</li>
+						<li>Leveraged open source tools such as Cobbler, Ansible, Python, IPMI and dnsmasq</li>
+						<li>Automated advanced client and switch network configuration</li>
+						<li>Automated IBM Watson Machine Learning Accelerator software stack installation</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="jobBlock">
+					<div class='blockHeader'>
+						<span class='title'>Staff Engineer</span>
+						 | <span class="position">Power8 Mid-Range CEC Bring-up</span>
+						<span class='date'>
+							Aug 2012 - May 2017
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<ul class='highlights'>
+						<li>Server integration bring-up</li>
+						<li>Large system configuration stress testing</li>
+					</ul>
+					<div class='separator'></div>
+				</div>
+				<div class="jobBlock">
+					<div class='blockHeader'>
+						<span class='title'>Engineer</span>
+						 | <span class="position">Power7 Memory Verification Tools</span>
+						<span class='date'>
+							Jun 2008 - Aug 2012
+						</span>
+					</div>
+					<div><a href=''></a></div>
+					<ul class='highlights'>
+						<li>Developed and maintained internal software used for error injection, data collection and test automation</li>
+						<li>Patented memory reliability innovations</li>
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		<div class='sectionLine'></div>
+		<div id='interests' class="sectionBlock">
+			<div class='sectionName'>
+				<span>INTERESTS</span>
+			</div>
+			<div class='sectionContent'>
+				<span class='name'>Open Source Software</span>
+				<!--
+		      --><span class='keywords'> <em>[
+						Home Automation
+						<!--
+		        -->, 
+						Networking
+						<!--
+		        -->, 
+						Education
+						<!--
+		        -->, 
+						Electronics
+						<!--
+		        -->
+						]
+					</em></span>
+				<!--
+		      --><span>, </span>
+				<span class='name'>Cycling</span>
+				<!--
+		      --><span class='keywords'> <em>[
+						Commuting
+						<!--
+		        -->, 
+						Cargo
+						<!--
+		        -->, 
+						Repair
+						<!--
+		        -->
+						]
+					</em></span>
+				<!--
+		      -->
+			</div>
+		</div>
+	</body>
+</html>
