@@ -257,8 +257,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
-  jekyll-theme-tactile (~> 0.1)
-  jemoji
 
 BUNDLED WITH
-   2.1.4
+   2.2.27
