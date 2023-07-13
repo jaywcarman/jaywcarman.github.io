@@ -21,7 +21,7 @@
 title: Jay Carman
 email: jay@carman.us.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Cloud software developer at IBM Power Systems.
+  Senior cloud developer at IBM Power Systems.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://jay.carman.us.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jaywcarman
